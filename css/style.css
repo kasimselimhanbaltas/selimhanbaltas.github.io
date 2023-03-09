@@ -1,4 +1,25 @@
 *{
     margin: 0;
-    background-color: aqua;
 }
+/* body{
+    background-image: url("../images/Screenshot (311).png");
+    background-size: cover;
+} */
+.container h1{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+} 
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+}
+table td{
+    border: solid;
+    width: 100px;
+    height: 100px;
+}
+
+
+
