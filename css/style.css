@@ -1,25 +1,108 @@
 *{
+    padding: 0;
     margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
 }
-/* body{
-    background-image: url("../images/Screenshot (311).png");
-    background-size: cover;
-} */
-.container h1{
-    position: relative;
-    justify-content: center;
-    align-items: center;
+.introduce{
+    background: url(https://media.istockphoto.com/id/1210769636/vector/abstract-white-chrome-lines-background.jpg?s=612x612&w=0&k=20&c=sHJX50hdwDmT8bubtwRc6LudliZz9_4fpivqV4nlSG4=);
+    /* background-color: rgb(199, 199, 199); */
+    width: auto;
+    margin: 50px 0;
+    height: 350px;
 } 
-table{
+.container h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+    letter-spacing: 2px;
+}
+.container h1 span{
+    color: darkred;
+}
+.introduce{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+.introduce img{
+    max-width: 600px;
+    min-height: 450px;
+    transition: transform .5s;
+}
+.introduce img:hover{
+    transform: scale(1.2) translateX(5%) ;
+}
+
+.about{
+    margin-top: 7%;
+    background-color: inherit;
+    text-align: center;
+}
+.about p{
+    margin-top: 5%;
+    line-height: 25px;
+}
+.skillscontainer{
+    margin: auto;
+    min-width: 60%;
+    padding: 0px auto;
+}
+.skills{
+    display: flex;
+    justify-content:space-evenly;
+}
+.skill{
+    border: 10px groove goldenrod;
+    border-radius: 10%;
+    width: 85px;
+    height: 110px;
+    position: relative;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+.skill img{
+    max-height: 50px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.skill h3{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    transform: translateX(-10%);
+}
+.aboutcontainer{
+    background-image: url(https://media.istockphoto.com/id/1210769636/vector/abstract-white-chrome-lines-background.jpg?s=612x612&w=0&k=20&c=sHJX50hdwDmT8bubtwRc6LudliZz9_4fpivqV4nlSG4=);
+    margin-top: 50px;
+    padding: 40px;
+    display: flex;
+}
+.contact{
+    padding: auto;
+}
+.platforms{
+    margin-top: 4%;
+    padding: 30px;
+    background-image: url(https://media.istockphoto.com/id/1210769636/vector/abstract-white-chrome-lines-background.jpg?s=612x612&w=0&k=20&c=sHJX50hdwDmT8bubtwRc6LudliZz9_4fpivqV4nlSG4=);
+    display: flex;
+    justify-content: center;
+}
+.platform{
+    padding: 0px 100px;
+}
+.platform img{
+    width: 50px;
+}
+
+/* table{
     margin-left: auto;
     margin-right: auto;
     border: solid;
 }
-table td{
+td{
+    padding: 20px;
     border: solid;
-    width: 100px;
-    height: 100px;
 }
-
-
+ */
 
