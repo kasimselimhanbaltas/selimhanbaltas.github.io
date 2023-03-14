@@ -60,6 +60,10 @@
     position: relative;
     padding: 0 10px;
     margin: 10px 0;
+    transition: transform .5s;
+}
+.skill:hover{
+    transform: rotate(360deg);
 }
 .skill img{
     max-height: 50px;
@@ -94,15 +98,4 @@
 .platform img{
     width: 50px;
 }
-
-/* table{
-    margin-left: auto;
-    margin-right: auto;
-    border: solid;
-}
-td{
-    padding: 20px;
-    border: solid;
-}
- */
 
